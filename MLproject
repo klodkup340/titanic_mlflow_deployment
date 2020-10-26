@@ -1,0 +1,9 @@
+name: mlflow-env
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+        n_estimators: {type: int, default: 100}
+    command: "python3 train.py {n_estimators}"

@@ -1,1 +1,1 @@
-# titanic_mlflow_deployment
+# titanic_mlflow
